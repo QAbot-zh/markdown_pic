@@ -1,12 +1,14 @@
 ### pepper 胸前平板使用心得
 [官方API链接](http://doc.aldebaran.com/2-5/naoqi/core/altabletservice.html#altabletservice)
-[!avator](https://github.com/undefinedcodezhong/markdown_pic/blob/master/pepperImg/api.png)
-这里主要讲一下showImage这个神奇的函数接口。
+![avatar](https://github.com/undefinedcodezhong/markdown_pic/blob/master/pepperImg/api.png)
+这里主要讲一下showImage这个神奇的函数接口。 
+``` 
 函数定义： bool ALTabletService::showImage(const std::string& url)
 Parameters:	
     url – url of the image to display.
 Returns:	
-    true if show succeed, false if it can’t ping the URL or if it’s not a image.
+    true if show succeed, false if it can’t ping the URL or if it’s not a image.  
+```  
 官方给的调用例子是这样的：
 ```python
 ...
@@ -28,7 +30,7 @@ Returns:
 也就是说，它的输入是一个url地址，而不是一个具体的图片地址【这个设计很奇葩】
 “198.18.0.1”是平板的网络地址【应该是这么理解的吧】
 然后，"xxx/img/help_charger.png"这个图片我最终还是没找到，但是在参考使用apps的时候发现了另一个秘密。
-apps调用这个函数的时候，使用的都是"http://198.18.0.1/apps/[PackageName]/xxx.jpg",而这个路径映射到磁盘上的路径是: "/home/nao/.local/share/PackageManager/apps/[PackageName]/html/xxx.jpg"
+apps调用这个函数的时候，使用的都是 "http://198.18.0.1/apps/[PackageName]/xxx.jpg", 而这个路径映射到磁盘上的路径是: "/home/nao/.local/share/PackageManager/apps/[PackageName]/html/xxx.jpg"
 注意在图片前面多了个"html"文件夹。
 也就是说，放在这里的图片，可以直接使用这个函数来显示到平板上，这就可以方便显示一些视觉的处理结果，比如做个全景拍照的应用，拍完直接显示到平板上，不满意就重来，类似这种。
 
