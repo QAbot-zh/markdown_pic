@@ -1,6 +1,7 @@
 ### pepper 胸前平板使用心得
-[官方API链接](http://doc.aldebaran.com/2-5/naoqi/core/altabletservice.html#altabletservice)
-![avatar](https://github.com/undefinedcodezhong/markdown_pic/blob/master/pepperImg/api.png)
+[官方API链接](http://doc.aldebaran.com/2-5/naoqi/core/altabletservice.html#altabletservice)  
+![avatar](https://github.com/undefinedcodezhong/markdown_pic/blob/master/pepperImg/api.png)  
+
 这里主要讲一下showImage这个神奇的函数接口。 
 ``` 
 函数定义： bool ALTabletService::showImage(const std::string& url)
