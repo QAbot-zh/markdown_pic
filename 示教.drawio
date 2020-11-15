@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2020-11-15T14:24:50.924Z" agent="5.0 (Windows)" version="13.9.8" etag="o9d9lMfWFfFk2bIUgAOX" type="github"><diagram id="g3Ag6LKiKwG-nNXfPuX4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-15T14:27:01.952Z" agent="5.0 (Windows)" etag="RVXFdD7VY_fJVUC3-CU7" version="13.9.8" type="github">
+  <diagram id="g3Ag6LKiKwG-nNXfPuX4" name="Page-1">
+    <mxGraphModel dx="741" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mepra10ckc_8qp2p5T_A-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mepra10ckc_8qp2p5T_A-1" target="Mepra10ckc_8qp2p5T_A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mepra10ckc_8qp2p5T_A-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Demonstrations&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mepra10ckc_8qp2p5T_A-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mepra10ckc_8qp2p5T_A-2" target="Mepra10ckc_8qp2p5T_A-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mepra10ckc_8qp2p5T_A-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Model of the skill&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mepra10ckc_8qp2p5T_A-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Reproduction/&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Generalization&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="630" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
